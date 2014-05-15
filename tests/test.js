@@ -44,8 +44,18 @@ var tests = [
     },
     { 
 	a: {"a":"this isa test", b: "this is b test"}, 
-	b: {"b":"this is b test", a: "this is a test"},
+	b: {"b":"this is b test", a: "this isb test"},
 	result: -1
+    },
+    { 
+	a: {"a":undefined, b: "this is b test"}, 
+	b: {"b":"this is b test"},
+	result: 0
+    },
+    { 
+	a: {"a":"this isa test", b: "this is b test", c: null}, 
+	a: {"a":"this isa test", b: "this is b test"}, 
+	result: 1 
     }
 ];
 

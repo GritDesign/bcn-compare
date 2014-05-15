@@ -12,8 +12,14 @@ number < string
 string < array
 array < object 
 
-for arrays of unequal length, out of bounds values are treated as undefined
-objects are sorted by their bcn-hash string id value 
+* for arrays of unequal length, out of bounds values are treated as undefined
+
+* objects are sorted by the following rules where:
+	- keys whose value is undefined are treated as not existing
+	- objects with fewer keys < objects with more keys
+	- keys are checked in sorted order where first keys that are not identical
+	  determine sort order 
+
 
 ### Installation
 
