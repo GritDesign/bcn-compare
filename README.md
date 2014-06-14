@@ -29,7 +29,7 @@ npm install bcn-compare
 
 ### Usage
 
-```
+```javascript
 var compare = require("bcn-compare").compare;
 
 var a = ["test", {}, ["an", "array"], 4, 3, 2, {"hello": 3}];
