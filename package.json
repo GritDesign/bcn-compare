@@ -2,7 +2,7 @@
   "author": "Mark Stewart <mark@grit-design.com>",
   "name": "bcn-compare",
   "description": "Comparator for sorting strings, numbers, objects and arrays",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/GritDesign/bcn-compare.git"
